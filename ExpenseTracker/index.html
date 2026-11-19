@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body style="margin: 0">
+  <!-- Write your code below -->
+  <form onsubmit="handleFormSubmit(event)">
+    <label for="amt">Choose Expense Amount</label>
+    <input type="number" name="expAmt" id="amt"></input>
+
+    <label for="desc">Choose Description</label>
+    <input type="text" name="description" id="desc"></input>
+
+    <label for="category">Choose a Category</label>
+    <select name="category" id="category">
+      <option value="food">Food</option>
+      <option value="fuel">Fuel</option>
+      <option value="electricity">Electricity</option>
+      <option value="movie">Movie</option>
+    </select>
+
+    <button type="submit" id="submit-btn">Add Expense</button>
+  </form>
+
+  <ul>
+
+  </ul>
+ 
+</body>
+<!-- Do not touch the below line. Write your javascript code in index.js-->
+<script src="index.js"></script>
+
+</html>
